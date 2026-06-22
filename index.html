@@ -12,6 +12,7 @@
         --fir: #10312b;            /* deep green/blue */
         --pinker-pank: #ef415f;    /* accent red/pink */
         --oranger: #f04c23;        /* accent orange */
+        --yallo: #f7be00;          /* accent yellow (not heavily used here) */
         --text-main: #222222;      /* dark gray/black */
         --text-muted: #5b6470;     /* muted gray */
         --border-soft: #e0e2e6;
@@ -67,18 +68,10 @@
         gap: 0.75rem;
       }
 
-      .brand-logo {
-        width: 36px;
-        height: 36px;
-        border-radius: 10px;
-        background: var(--oranger);
-      }
-
-      .brand-text-main {
-        font-weight: 700;
-        font-size: 0.95rem;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
+      .brand-logo-image {
+        height: 40px;
+        width: auto;
+        display: block;
       }
 
       .brand-text-sub {
@@ -314,11 +307,11 @@
       <header class="top-bar">
         <div class="top-bar-inner">
           <div class="brand-mark">
-            <div class="brand-logo"></div>
-            <div>
-              <div class="brand-text-main">Habitat</div>
-              <div class="brand-text-sub">Communication &amp; Culture</div>
-            </div>
+            <img
+              src="habitat-logo-horizontal.jpg"
+              alt="Habitat Communication &amp; Culture"
+              class="brand-logo-image"
+            />
           </div>
           <div class="brand-text-sub">Sho-Me Power · Core Values Definition</div>
         </div>
